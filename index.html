@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="registration form">
+    <title>Form</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReTwWkt4HK3eAed65gOh1dwiJyIvjIIaRoag&s">
+</head>
+
+<body bgcolor="powderblue">
+    <h1>   Registration Form</h1>
+    <hr color="white">
+    <form method="post">
+        <table cellpadding="10" cellspacing="5">
+            <tr>
+                <td><label for="first_name" ><b>First Name:</b></label></td>
+                <td><input type="text" name="first_name" minlength="3" autofocus required placeholder="Enter your first name"></td>
+            </tr>
+            <tr>
+                <td><label for="Middle_name"><b>Middle Name:</b></label></td>
+                <td><input type="text" name="Middle_name" placeholder="Enter your Middle name"></td>
+            <tr>
+                <td><label for="Last_name"><b>Last Name:</b></label></td>
+                <td><input type="text" name="Last_name" minlength="3" required placeholder="Enter your Last name"></td>
+            </tr>
+            <tr>
+                <td><label for="course"><b>Course:</b></label></td>
+                <td>
+                    <select name="course" required>
+                        <option>B.TECH</option>
+                        <option>B.PHARMA</option>
+                        <option>DIPLOMA</option>
+                        <option>M.TECH</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="gender"><b>Gender:</b></label></td>
+                <td>
+                    <input type="radio" name="gender" required value="male">
+                    <lable for="gender">Male</lable>
+                    <input type="radio" name="gender" value="female">
+                    <label for="gender">Female</label>
+                    <input type="radio" name="gender" value="others">
+                    <label for="gender">Others</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phone_number"><b>Phone number:</b></label></td>
+                <td><input type="number" name="phone_number" minlength="10" placeholder="Enter your phone number"></td>
+            </tr>
+            <tr>
+                <td><label for="email"><b>Email:</b></label></td>
+                <td><input type="email" name="email" placeholder="Enter your email"></td
+            </tr>
+            <tr>
+                <td><label for="password"><b>Password:</b></label></td>
+                <td><input type="password" name="password" placeholder="Enter your password"></td
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="terms" required checked>
+                    <label for="terms"><b>Terms and Conditions.</b></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="submit" value="Submit">
+                    <input type="reset" name="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
